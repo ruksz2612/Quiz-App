@@ -30,21 +30,21 @@ public class Utils {
 
     public static Map<String,String> getMathQuestions(){
         HashMap<String,String> questions = new HashMap<>();
-        questions.put("1+1","2");
-        questions.put("2+2","4");
-        questions.put("3+3","6");
-        questions.put("4+4","8");
-        questions.put("5+5","10");
-        questions.put("6+6","12");
+        questions.put("5%3","2");
+        questions.put("12+12","144");
+        questions.put("1004/2","502");
+        questions.put("1.5:2.5","3:5");
+        questions.put("5*5","25");
+        questions.put("6-6","0");
         questions.put("7+7","14");
-        questions.put("8+8","16");
-        questions.put("9+9","18");
+        questions.put("8*8","64");
+        questions.put("9*6","54");
         questions.put("10+10","20");
-        questions.put("11+11","22");
+        questions.put("11*11","121");
         questions.put("12+12","24");
         questions.put("13+13","26");
         questions.put("14+14","28");
-        questions.put("15+15","30");
+        questions.put("15*15","125");
 
         return questions;
     }
